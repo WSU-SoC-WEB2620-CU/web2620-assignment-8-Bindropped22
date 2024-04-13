@@ -1,1 +1,54 @@
-// Your styles go here
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "bootstrap";
+
+$nav-links: ".navbar-nav .nav-link";
+
+// Loop through each nav link selector
+@each $link in $nav-links {
+  #{$link} {
+    color: hotpink; // Apply pink color to the text
+  }
+}
+
+.jumbotron{
+    background: repeating-linear-gradient(45deg, hotpink, white 50%, hotpink 50%);
+}
+.jumbotron h1{
+padding-left: 5px;
+font-weight: 600;
+}
+.jumbotron p{
+padding-left: 5px;
+}
+
+.Features h1{
+    color: hotpink;
+}
+
+// .btn-hotpink{
+//     background-color: hotpink;
+//     color: white;
+// }
+
+.btn:hover {
+  background-color: pink;
+  color: white; /* Change text color to white for better contrast */
+}
+
+.col {
+  display: flex;
+  align-items: center;
+}
+
+.hot-pink {
+  color: hotpink;
+  font-size: 100px; /* Adjust as needed */
+}
+
+.content {
+  margin-left: 20px; /* Adjust spacing between icon and content */
+}
+
+.square-icon {
+  font-size: 36px;
+}

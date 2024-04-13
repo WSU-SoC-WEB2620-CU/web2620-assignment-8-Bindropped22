@@ -6,11 +6,300 @@
   <title>Project Starter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-9hXrtR23Z7BDU+4i6sfD2VEtYavk6SybALY3pJR8e8dQ7OfF8tk2C6y/RbK9i6hJkP6MJlSYGTeJU3LcMtYcWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="color: hotpink;">Tanner W. Bindrup</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+    </div>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Plans</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- End Nav -->
+
+<!-- Jumbotron Start -->
+<div class="jumbotron">
+  <h1 class="display-4">A bootstrap demo</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias commodi harum beatae inventore iusto suscipit, 
+    dolor voluptatum tempora veniam neque voluptatem. Exercitationem maiores eveniet atque laborum doloremque quia harum optio!</p>
+  <div class="row justify-content-center"> <!-- Center the buttons -->
+    <div class="col-md-3">
+      <button class="btn btn-primary btn-block btn-block">Click here to see more</button> <!-- Blue button -->
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-warning btn-block btn-block">Click here to see a demo</button> <!-- Orange button -->
+    </div>
+  </div>
+</div>
+<!-- Jumbotron End -->
+
+<!-- Features (Cards) start -->
+<div class="Features">
+  <div class="text-center">
+    <h1>Features</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Quam neque nostrum veritatis aliquid quaerat commodi consequatur 
+      voluptatibus <br> inventore optio perspiciatis vero ullam vitae velit deleniti ipsa, 
+      sed a voluptatem necessitatibus?</p>
+  </div>
+
+    <div class="row justify-content-center"> <!-- Center the cards -->
+      <div class="col-md-3"> 
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>  
+      </div>
+      <div class="col-md-3"> 
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"> 
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- Features END -->
+
+<!-- PLANS START -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 style="color: hotpink;">Plans</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quia fuga perferendis numquam, 
+        repellat labore doloremque adipisci inventore molestiae accusantium mollitia harum laborum 
+        tempore aperiam cupiditate deleniti vel placeat. Eius. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Repellendus possimus dolorem, deleniti rerum obcaecati perferendis officia officiis,
+         autem illo ipsa vitae? Explicabo alias possimus fuga repellendus rerum, ab distinctio adipisci.</p>
+    </div>
+    <div class="col">
+      <img src="images/plan.JPG" alt="plans">
+    </div>
+  </div>
+</div>
+<!-- PLANS END -->
+
+<!--  Pricing Start -->
+<div class="container">
+  <h1 style="color: hotpink; text-align: center;"> Pricing</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, odit tenetur necessitatibus eaque fugiat accusamus adipisci 
+    voluptates recusandae deserunt voluptatum corporis temporibus itaque eius ad rem facilis quaerat repudiandae aspernatur!</p>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+        <div class="card-header" style="text-align: center;">Free</div>
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">$0/mo</h5>
+          <a href="#" class="btn btn-secondary">Go somewhere</a>
+          <ul>
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+        <div class="card-header" style="text-align: center;">Pro</div>
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">$15/mo</h5>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+          <ul>
+            <li>20 users included</li>
+            <li>10 GB of storage</li>
+            <li>Priority email support</li>
+            <li>Help center access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header" style="text-align: center;">Enterprise</div>
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">$29/mo</h5>
+          <a href="#" class="btn btn-info">Go somewhere</a>
+          <ul>
+            <li>30 users included</li>
+            <li>20 GB of storage</li>
+            <li>Phone email support</li>
+            <li>Help center access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Gallery Start (STUCK)-->
+<div class="container">
+  <div class="row">
+    <div class="col 6">
+    <h1 style="color: hotpink;">Gallery</h1>
+    </div>
+    <div class="col 6">
+      <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+    </div>
+    <div class="col">
+      <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+    </div>
+    <div class="col">
+      <img class="card-img-top" src="images/squares.jpg" alt="Centered image here">
+    </div>
+  </div>
+</div>
+<!-- Gallery End-->
+
+<!-- Top Projects start -->
+<div class="row">
+  <div class="col">
+    <i class="fas fa-square-full hot-pink"></i>
+    <div class="content">
+    <h1>Project 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Facilis labore vero vitae sit adipisci consequatur ipsum nemo quis fuga, 
+      voluptas hic? Quis suscipit vero consequatur deleniti itaque. Nesciunt, repudiandae impedit?</p>
+    </div>
+  </div>
+  <div class="col">
+    <i class="fas fa-square-full hot-pink"></i>
+    <div class="content">
+    <h1>Project 2</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Facilis labore vero vitae sit adipisci consequatur ipsum nemo quis fuga, 
+      voluptas hic? Quis suscipit vero consequatur deleniti itaque. Nesciunt, repudiandae impedit?</p>
+    </div>
+  </div>
+  <div class="w-100"></div>
+  <div class="col">
+    <i class="fas fa-square-full hot-pink"></i>
+    <div class="content">
+    <h1>Project 3</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Facilis labore vero vitae sit adipisci consequatur ipsum nemo quis fuga, 
+      voluptas hic? Quis suscipit vero consequatur deleniti itaque. Nesciunt, repudiandae impedit?</p>
+    </div>
+    </div>
+  <div class="col">
+    <i class="fas fa-square-full hot-pink"></i>
+    <div class="content">
+    <h1>Project 4</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Facilis labore vero vitae sit adipisci consequatur ipsum nemo quis fuga, 
+      voluptas hic? Quis suscipit vero consequatur deleniti itaque. Nesciunt, repudiandae impedit?</p>
+    </div>
+    </div>
+  <div class="w-100"></div>
+  <div class="col">
+    <i class="fas fa-square-full hot-pink"></i>
+    <div class="content">
+    <h1>Project 5</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Facilis labore vero vitae sit adipisci consequatur ipsum nemo quis fuga, 
+      voluptas hic? Quis suscipit vero consequatur deleniti itaque. Nesciunt, repudiandae impedit?</p>
+    </div>
+  </div>
+  <div class="col">
+    <i class="fas fa-square-full hot-pink"></i>
+    <div class="content">
+    <h1>Project 6</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Facilis labore vero vitae sit adipisci consequatur ipsum nemo quis fuga, 
+      voluptas hic? Quis suscipit vero consequatur deleniti itaque. Nesciunt, repudiandae impedit?</p>
+    </div>
+  </div>
+</div>
+
+<!-- Top Projects END -->
+<footer class="footer bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <i class="fas fa-square-full text-white square-icon"></i>
+        <h1>Logo</h1>
+      </div>
+      <div class="col">
+        <ul class="list-unstyled text-light">
+          <li><h5 class="text-white">Features</h5></li>
+          <li>Cool Stuff</li>
+          <li>Random Feature</li>
+          <li>Team Feature</li>
+          <li>Stuff for Developers</li>
+          <li>Another One</li>
+          <li>Last Time</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="list-unstyled text-light">
+          <li><h5 class="text-white">Resources</h5></li>
+          <li>Resource 1</li>
+          <li>Resource Name</li>
+          <li>Another Resource</li>
+          <li>Final Resource</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="list-unstyled text-light">
+          <li><h5 class="text-white">About</h5></li>
+          <li>Team</li>
+          <li>Locations</li>
+          <li>Terms</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
 <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>
